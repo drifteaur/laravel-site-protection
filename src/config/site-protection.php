@@ -7,8 +7,8 @@ return [
     | Passwords For Laravel Site Protection
     |--------------------------------------------------------------------------
     |
-    | 
-    | 
+    |
+    |
     |
     */
 
@@ -49,4 +49,15 @@ return [
     */
 
     'css_file_uri' => env('SITE_PROTECTION_CSS_FILE_URI'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Cookie domain to use (to allow for wildcards, for example)
+    |--------------------------------------------------------------------------
+    |
+    |
+    |
+    |
+    */
+    'cookie_domain' => env('SESSION_DOMAIN'),
 ];
